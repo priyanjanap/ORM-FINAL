@@ -26,3 +26,17 @@ This project is a desktop application built with **JavaFX** and powered by **Hib
 ---
 
 ## 📂 Project Structure  
+
+/orm-hibernate-javafx-project
+├── /src
+│ ├── /controller # JavaFX controllers
+│ ├── /model # Hibernate entity classes
+│ ├── /service # Business logic services
+│ ├── /dao # Data access objects (DAOs)
+│ └── /util # Utility classes (e.g., DB connection, encryption)
+├── /resources
+│ ├── /fxml # JavaFX FXML files
+│ ├── /css # Stylesheets for UI
+│ └── /images # Icons and images
+├── pom.xml # Maven configuration
+└── README.md # Documentation
