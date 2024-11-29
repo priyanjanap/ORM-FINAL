@@ -1,0 +1,75 @@
+
+#helloMain {
+    -fx-background-color: linear-gradient(to bottom right, #2b2b4b, #1e1e30, #141427);
+    -fx-padding: 40px;
+}
+
+
+.label:first-of-type {
+    -fx-font-family: 'Dancing Script Regular';
+    -fx-font-size: 120px;
+    -fx-text-fill: #ffffff;
+    -fx-effect: dropshadow(gaussian, rgba(255, 255, 255, 0.8), 20, 0.6, 4, 4);
+    -fx-translate-y: -20px;
+}
+
+
+.label:last-of-type {
+    -fx-font-family: 'Roboto Medium';
+    -fx-font-size: 42px;
+    -fx-text-fill: #e0e0e0;
+    -fx-effect: dropshadow(gaussian, rgba(255, 255, 255, 0.5), 15, 0.3, 2, 2);
+    -fx-translate-y: 10px;
+}
+
+
+.rounded-pane {
+    -fx-background-color: rgba(0, 0, 0, 0.4);
+    -fx-background-radius: 30;
+    -fx-border-radius: 30;
+    -fx-border-color: linear-gradient(to right, #ff7e5f, #feb47b);
+    -fx-border-width: 3;
+    -fx-padding: 20px;
+    -fx-effect: dropshadow(gaussian, rgba(255, 255, 255, 0.3), 20, 0.4, 4, 4);
+}
+
+.line {
+    -fx-stroke: linear-gradient(to right, #ff7e5f, #feb47b);
+    -fx-stroke-width: 2;
+}
+
+
+.hellobtn {
+    -fx-background-color: linear-gradient(to right, #ff7e5f, #feb47b);
+    -fx-background-radius: 30;
+    -fx-border-radius: 30;
+    -fx-text-fill: white;
+    -fx-font-family: 'Roboto Bold';
+    -fx-font-size: 20px;
+    -fx-padding: 15px 30px;
+    -fx-alignment: center-left;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.4), 10, 0.4, 4, 4);
+    -fx-graphic-text-gap: 25px;
+    -fx-transition: all 0.3s ease-in-out;
+}
+
+.hellobtn:hover {
+    -fx-background-color: linear-gradient(to right, #feb47b, #ff7e5f);
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.7), 15, 0.5, 6, 6);
+    -fx-transform: scale(1.05);
+}
+
+
+.image-view {
+    -fx-effect: dropshadow(gaussian, rgba(255, 255, 255, 0.6), 10, 0.5, 3, 3);
+}
+
+.rounded-pane:hover {
+    -fx-background-color: rgba(0, 0, 0, 0.6);
+    -fx-effect: dropshadow(gaussian, rgba(255, 255, 255, 0.5), 25, 0.5, 6, 6);
+}
+
+.rounded-pane:hover .hellobtn {
+    -fx-transform: scale(1.1);
+}

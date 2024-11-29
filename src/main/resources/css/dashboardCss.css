@@ -1,0 +1,117 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#root {
+    background-color: #1e1e2f;
+}
+
+
+.rounded-pane {
+    background-color: #2a2a40;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+}
+
+
+.optionBtn {
+    -fx-background-color: #4a90e2;
+    -fx-text-fill: white;
+    -fx-font-size: 18px;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.3), 10, 0, 0, 10);
+}
+
+.optionBtn:hover {
+    -fx-background-color: #357ab8;
+}
+
+.signOutBtn {
+    -fx-background-color: #e94e77;
+    -fx-text-fill: white;
+    -fx-font-size: 18px;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-cursor: hand;
+}
+
+.signOutBtn:hover {
+    -fx-background-color: #c03f65;
+}
+
+/* Label styles */
+Label {
+    -fx-font-family: 'Roboto';
+    -fx-text-fill: white;
+    -fx-font-size: 40px;
+}
+
+.whoLabel {/* General styles for AnchorPane */
+    #helloMain {
+        background-color: #1e1e2f;
+        -fx-padding: 20px;
+    }
+
+    /* Label styles */
+    Label {
+        -fx-font-family: 'Roboto';
+        -fx-text-fill: white;
+        -fx-font-size: 40px;
+    }
+
+    /* Rounded pane style */
+    .rounded-pane {
+        -fx-background-color: #2a2a40;
+        -fx-border-radius: 15px;
+        -fx-padding: 20px;
+        -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 10, 0, 0, 10);
+    }
+
+    /* Button styles */
+    .optionBtn {
+        -fx-background-color: #4a90e2;
+        -fx-text-fill: white;
+        -fx-font-size: 18px;
+        -fx-border-radius: 10px;
+        -fx-background-radius: 10px;
+        -fx-cursor: hand;
+    }
+
+    .optionBtn:hover {
+        -fx-background-color: #357ab8;
+    }
+
+    .signOutBtn {
+        -fx-background-color: #e94e77;
+        -fx-text-fill: white;
+        -fx-font-size: 18px;
+        -fx-border-radius: 10px;
+        -fx-background-radius: 10px;
+        -fx-cursor: hand;
+    }
+
+    .signOutBtn:hover {
+        -fx-background-color: #c03f65;
+    }
+
+    /* Line styling */
+    Line {
+        -fx-stroke: #8e8e93;
+        -fx-stroke-width: 1;
+    }
+
+    -fx-text-fill: #e0e0e0;
+    -fx-font-size: 18px;
+}
+
+/* Line styles */
+Line {
+    -fx-stroke: #8e8e93;
+    -fx-stroke-width: 1;
+}
